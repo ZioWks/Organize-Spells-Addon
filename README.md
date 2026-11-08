@@ -126,9 +126,3 @@ target/organisespells-1.0.jar
 ```
 
 ---
-
-<div align="center">
-
-Créé par **Karmaaa**
-
-</div>
