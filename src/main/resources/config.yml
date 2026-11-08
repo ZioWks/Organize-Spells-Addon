@@ -1,0 +1,37 @@
+messages:
+  player-only: "&cCette commande est réservée aux joueurs."
+  usage: "&eUtilise /{label} pour ouvrir le menu ou /{label} reload pour recharger la configuration."
+  reload-success: "&aConfiguration rechargée."
+  reload-no-permission: "&cTu n'as pas la permission de recharger la configuration."
+  no-item: "&cTiens l'objet dont tu veux organiser les sorts."
+  spellbook-error: "&cImpossible de récupérer ton grimoire MagicSpells."
+  no-spells: "&cAucun sort n'est lié à cet objet."
+  spells-unavailable: "&cLes sorts liés à cet objet ne sont plus disponibles."
+  spell-selected: "&b[Org] &e{spell} sélectionné. Clique sur un autre sort pour échanger leurs places."
+  spells-swapped: "&a{first} et {second} ont échangé leurs places."
+
+gui:
+  title: "&1Organiser les sorts"
+  items:
+    spell:
+      material: ENCHANTED_BOOK
+      name: "&f{spell}"
+      selected-status: "&aSélectionné"
+      unselected-status: "&7Position {position}"
+      lore:
+        - "{status}"
+        - "&eClique sur deux sorts pour échanger leurs places."
+    previous:
+      material: ARROW
+    previous-page:
+      name: "&ePage précédente"
+      lore: []
+    next:
+      material: ARROW
+    next-page:
+      name: "&ePage suivante"
+      lore: []
+    page:
+      material: BOOK
+      name: "&6Page {page}/{pages}"
+      lore: []
