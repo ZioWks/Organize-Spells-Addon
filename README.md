@@ -58,7 +58,7 @@ Au premier démarrage, le plugin crée automatiquement son fichier `config.yml`.
 | Commande | Description |
 |---|---|
 | `/org` | Ouvre le menu des sorts liés à l'objet tenu en main principale. |
-| `/org reload` | Recharge la configuration du plugin sans redémarrer le serveur. |
+| `/org reload` | Recharge la configuration du plugin |
 
 Tenez l'objet concerné avant d'utiliser `/org`. Si aucun sort n'y est lié, le plugin vous le signalera.
 
@@ -74,10 +74,8 @@ Tenez l'objet concerné avant d'utiliser `/org`. Si aucun sort n'y est lié, le 
 
 | Permission | Description | Par défaut |
 |---|---|---|
-| `organisespells.command.org` | Ouvrir le menu `/org`. | Opérateur |
-| `organisespells.command.reload` | Utiliser `/org reload`. | Opérateur |
-
-Pour donner l'accès à un joueur, attribuez-lui `organisespells.command.org` avec votre plugin de permissions.
+| `organisespells.command.org` | Ouvrir le menu `/org`. |
+| `organisespells.command.reload` | Utiliser `/org reload`. |
 
 ## ⚙️ Configuration
 
